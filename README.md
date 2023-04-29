@@ -22,11 +22,11 @@
 
 ## If you are self-sourcing:
  - Pulleys are GT2-20 tooth.
-  - 16 tooth probably would have worked (sensorless homing value was the same).
+   - 16 tooth probably would have worked (sensorless homing value was the same).
  - You should buy a fastener kit.
-  - SIBOOR includes bearings, feet, magnets, springs, and clone bondtech bits for around the same price as Baiozraw which didn't.
+   - SIBOOR includes bearings, feet, magnets, springs, and clone bondtech bits for around the same price as Baiozraw which didn't.
  - F623-ZZ bearings *may* rub your belts, creating dust dandruff debris.
-  - I had both ZZ and RS bearings and an audit showed the RS had "better" tolerances, and after re-belting with RS, it didn't rub anymore.
+   - I had both ZZ and RS bearings and an audit showed the RS had "better" tolerances, and after re-belting with RS, it didn't rub anymore.
  - If you get a batch of rails, the one with the most preload should be used for the X axis.
  - Installing the thermal fuse for the bed along the (logical) rear edge may limit travel on Z with or without kirigami. 
 
