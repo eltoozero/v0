@@ -23,10 +23,18 @@
 ## If you are self-sourcing:
  - Pulleys are GT2-20 tooth.
    - 16 tooth probably would have worked (sensorless homing value was the same).
- - You should buy a fastener kit.
+ - You should buy a fastener set.
    - SIBOOR includes bearings, feet, magnets, springs, and clone bondtech bits for around the same price as Baiozraw which didn't.
- - F623-ZZ bearings *may* rub your belts, creating dust dandruff debris.
-   - I had both ZZ and RS bearings and an audit showed the RS had "better" tolerances, and after re-belting with RS, it didn't rub anymore.
+ - If you buy a fastener set, consider buying quality shim washers.
+   - I purchased both a Baiozraw and SIBOOR fastener sets and both contained stamped "shim washers" cupped far beyond tolerances.
+   - I was able to use a good set of flat pliers and "massage" a set of cupped washers to within acceptable shim tolerances, but YMMV.
+ - F623-ZZ bearings *may* rub your belts, creating dust dandruff debris around your idlers.
+   - I had both ZZ and RS bearings and a measurement audit showed the RS had "better" tolerances, and after re-belting with RS, it didn't rub anymore.
+ - 3M 5952 VHB tape should be the 3/4-inch variety if you don't want to be cutting a whole bunch.
+ - Bowden tube 4x3 is also known as "reverse bowden", and is used to allow slack for retraction.
+ - The listed Bowden Fittings are not required unless you are doing a bowden extruder (not direct drive with reverse bowden feed).
+
+## Component notes:
  - If you get a batch of rails, the one with the most preload should be used for the X axis.
  - Installing the thermal fuse for the bed along the (logical) rear edge may limit travel on Z with or without kirigami. 
 
