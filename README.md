@@ -36,7 +36,12 @@
 
 ## Component notes:
  - If you get a batch of rails, the one with the most preload should be used for the X axis.
- - Installing the thermal fuse for the bed along the (logical) rear edge may limit travel on Z with or without kirigami. 
+ - Installing the thermal fuse for the bed along the (logical) rear edge may limit travel on Z with or without kirigami.
+ 
+## Assembly notes:
+- Pg 30. Preload 3 for direct drive, 5 for bowden.
+- Pg 53. You preload 2 M3 into the bottom channel if you're NOT using the 5V PSU, you'll need more for that part.
+- Pg 155. You can coat a short M3 with vasaline to keep the nut retained while you glue it, this prevents glue seeping into threads.
 
 ### Supplier Links:
 
