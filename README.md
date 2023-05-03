@@ -37,6 +37,17 @@
 ## Component notes:
  - If you get a batch of rails, the one with the most preload should be used for the X axis.
  - Installing the thermal fuse for the bed along the (logical) rear edge may limit travel on Z with or without kirigami.
+ - FLY Gemini v3; oh boy.
+  - The pinouts that *were* available on GitHub are gone, because I filed and issue that they were incorrect, seriously.
+  - The pinout svg that's floating around pinned was authored by me, with no feedback from Mellow, which is completely sad.
+  - You may need to add step_pulse_duration: 0.000004 to resolve layer shifting...
+    - This is due a to a "bug" in the Mellow hardware. 
+    - https://klipper.discourse.group/t/toolhead-drifts-in-x-direction-when-test-resonances/1970/12
+    - https://klipper.discourse.group/t/tmc2209-drivers-do-not-work-correctly-via-uart/5113/12
+    - > I know some Mellow boards needed an explicit step_pulse_duration because the boards have a custom “level shifter” circuit that could not transition from high-to-low quickly if the line was left high for any significant duration. Otherwise, I’m not aware of any other boards having a systemic issue. - koconner
+    - https://klipper.discourse.group/t/tmc2209-drivers-do-not-work-correctly-via-uart/5113/12
+    - > I just wanted to share with you my findings regarding the step_pulse_duration issue with klipper and the FLY protection. If you set your step_pulse_duration to 0.000004, you will never be able to run speed over 600mms with a 16microstepping. I was able to tune down to step_pulse_duration: 0.000001 with no drift on motors, and was then able to reach 1000mm/s. :slightly_smiling_face: I might try to go a bit smaller on pulse lenght and try to find the minimum we can use. But that might be useless. 1000mms is plenty enough unicorn speed haha - unknown
+    - https://github.com/Lzhikai/SIBOOR-Voron-0.2/blob/main/printer.cfg
  
 ## Assembly notes:
 - Pg 30. Preload 3 for direct drive, 5 for bowden.
