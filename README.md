@@ -26,7 +26,7 @@
  - You should buy a fastener set.
    - SIBOOR includes bearings, feet, magnets, springs, and clone bondtech bits for around the same price as Baiozraw which didn't.
  - If you buy a fastener set, consider buying quality shim washers.
-   - I purchased both a Baiozraw and SIBOOR fastener sets and both contained stamped "shim washers" cupped far beyond tolerances.
+   - I purchased both a Baiozraw and SIBOOR fastener sets and got stamped "shim washers" cupped far beyond tolerances.
    - I was able to use a good set of flat pliers and "massage" a set of cupped washers to within acceptable shim tolerances, but YMMV.
  - F623-ZZ bearings *may* rub your belts, creating dust dandruff debris around your idlers.
    - I had both ZZ and RS bearings and a measurement audit showed the RS had "better" tolerances, and after re-belting with RS, it didn't rub anymore.
@@ -42,8 +42,8 @@
    - Adafruit carries a 5-pack: https://www.adafruit.com/product/1758
    - I soldered wire-wrap wire to 1210 SMD LEDs and used some clear heatshrink for retention, putting a resistor near the plug header.
  - FLY Gemini v3; oh boy.
-   - The pinouts that *were* available on GitHub are gone, because I filed and issue that they were incorrect, seriously.
-   - The pinout svg that's floating around pinned was authored by me, with no feedback from Mellow, which is completely sad.
+   - The pinouts that *were* available on the Mellow3D GitHub are gone, because I filed and issue that they were incorrect and in response they took down the entire repo, seriously.
+   - The pinout svg that's in this repo was authored by me, with no feedback from Mellow, which is kinda sad.
    - You may need to add step_pulse_duration: 0.000004 to resolve layer shifting...
      - This is due a to a "bug" in the Mellow hardware. 
      - https://klipper.discourse.group/t/toolhead-drifts-in-x-direction-when-test-resonances/1970/12
@@ -54,7 +54,7 @@
  
 ## Assembly notes:
 - Pg 30. Preload 3 for direct drive, 5 for bowden.
-- Pg 53. You preload 2 M3 into the bottom channel if you're NOT using the 5V PSU, you'll need more for that part.
+- Pg 53. Preload 2 M3 into the bottom channel if you're NOT using the 5V PSU, you'll need more for that part.
 - Pg 155. You can coat a short M3 with vasaline to keep the nut retained while you glue it, this prevents glue seeping into threads.
 
 ### Supplier Links:
